@@ -1,0 +1,61 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-size: 16px;
+    font-family: "Outfit", serif;
+    font-weight: 400, 600, 700;
+    font-style: normal;
+
+
+}
+
+.container {
+    border: 1x solid black;
+    width: 55%;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.container img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.container .prepareContainer {
+    background-color: hsl(30, 54%, 90%);
+    padding: 1rem;
+    line-height: 35px;
+    border-radius: 10px;
+
+}
+
+li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.container .Nutrition table {
+    border-spacing: 1rem;
+    /* border: 1px solid black;*/
+    /*margin: auto;*/
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 1rem;
+
+}
+
+/*.container .Nutrition table tr{
+    border-bottom: 1px solid black;
+   
+}*/
+
+/*
+@media screen and (max-width:500px)
+{
+    .container
+    {
+        background:red;
+    }
+}*/
